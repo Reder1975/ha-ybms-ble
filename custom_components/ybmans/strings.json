@@ -1,0 +1,20 @@
+{
+  "name": "yBMS",
+  "config_flow": {
+    "step": {
+      "user": {
+        "title": "yBMS BLE Integration",
+        "data": {
+          "address": "MAC-Adresse des Telefons",
+          "name": "Integrationname"
+        }
+      },
+      "bluetooth": {
+        "title": "yBMS Gerät gefunden",
+        "data": {
+          "address": "MAC-Adresse"
+        }
+      }
+    }
+  }
+}

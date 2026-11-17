@@ -1,0 +1,20 @@
+{
+  "name": "yBMS",
+  "domain": "ybmans",
+  "class": "BleakPlugin",
+  "config_flow": true,
+  "codeowners": ["@you"],
+  "dependencies": [],
+  "integration_type": "sensor",
+  "iot_class": "bridge",
+  "fixed_config": false,
+  "selected": false,
+  "loggers": [],
+  "requirements": ["bleak>=0.22"],
+  "manufacturer": "Chi-Trip",
+  "model": "yBMS v1.37 16S",
+  "description": "Home Assistant integration for yBMS BLE battery management system with 16S support",
+  "version": "1.0.0",
+  "after_setup_service": "wait_30_seconds",
+  "codeowners": ["@you"]
+}
